@@ -7,9 +7,9 @@ import RestaurantCard from "../components/RestaurantCard";
 import Menu from "../components/Menu";
 import { RootStackParams } from "../App";
 
-type Props = NativeStackScreenProps<RootStackParams, "Restaurants">;
+type Props = NativeStackScreenProps<RootStackParams, "RestaurantsStack">;
 
-const RestaurantsScreen = ({ route, navigation }: Props) => {
+const RestaurantsScreen = ({ route, navigation }: any) => {
   return (
     <View style={styles.container}>
       <Text style={styles.screenTitle}>Restaurants Screen</Text>

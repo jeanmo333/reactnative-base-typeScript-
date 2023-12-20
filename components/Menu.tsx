@@ -15,14 +15,14 @@ const Menu = () => {
       <TouchableOpacity
         onPress={() => {
           // go to explore
-          navigation.navigate("Explore");
+          navigation.navigate("ExploreStack");
         }}>
         <Text style={styles.link}>Explore</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
           // go to restaurants
-          navigation.navigate("Restaurants");
+          navigation.navigate("RestaurantsStack");
         }}>
         <Text style={styles.link}>Restaurants</Text>
       </TouchableOpacity>
